@@ -5,24 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Liste des tâches</title>
-    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
     <div class="container">
-      <h1>Liste des tâches</h1>
-      <div class="search">
-        <form>
-          <input type="text" placeholder="Ajouter une tâche..." />
-          <button class="btn-add">+</button>
-        </form>
-      </div>
-      <div class="li-container">
-        <ul></ul>
-      </div>
-      <div class="empty">
-        <p>Pas de choses à faire</p>
+      <div class="list">
+        <h1>Liste des tâches</h1>
+        <div class="search">
+          <form>
+            <input type="text" placeholder="Ajouter une tâche..." />
+            <button class="btn-add">+</button>
+          </form>
+        </div>
+        <div class="li-container">
+          <div class="taches">
+            <ul></ul>
+          </div>
+          <div class="empty">
+            <p>Pas de choses à faire</p>
+          </div>
+        </div>
       </div>
     </div>
-    <script src="./js/main.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
